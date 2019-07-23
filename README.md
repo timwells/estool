@@ -1,12 +1,16 @@
 # estool
-Elastic Search loader NideJs
+Elastic Search loader NodeJs
 
 Exploring Elastic Search \ Kibana data
 
 ## Install
-npm instal
+npm install
 
 Using latest @elastic/elasticsearch library
 
 ## Run 
 node index.js
+
+select json data from .\data folder and name the index.
+
+e.g loadData('cars',require('./data/cars.json'))
