@@ -1,0 +1,24 @@
+{
+  "name": "estool",
+  "version": "1.0.0",
+  "description": "Elastic search loader\\query test tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timwells/estool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timwells/estool/issues"
+  },
+  "homepage": "https://github.com/timwells/estool#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.2.0",
+    "elasticsearch": "^16.3.0",
+    "get-json": "^1.0.1"
+  }
+}
