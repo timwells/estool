@@ -3,7 +3,6 @@
 // Public data sets
 // https://data.gov.uk/search
 
-
 // Latest client-side elastic search
 const { Client } = require('@elastic/elasticsearch')
 const client = new Client({ node: 'http://localhost:9200' })
